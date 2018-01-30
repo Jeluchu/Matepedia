@@ -29,10 +29,10 @@ int main(){
   scanf(" %lf", &op2);
   printf("+---------------------------------------------------------------------+\n");
   if((op1<=10000000) && (op2<=10000000)){
-    Resultado = op1+op2;
-    printf(AMARILLO "El resultado de la suma es: " NORMAL
-           NEGRITA "%.2f\n" NORMAL, Resultado);
-  }else{printf(ROJO "Introduce valores menores de 10.000.000\n" NORMAL);}
+      Resultado = op1-op2;
+      printf(AMARILLO "El resultado de la resta es: " NORMAL
+             NEGRITA "%.2f\n" NORMAL, Resultado);
+  }else{printf(ROJO"Introduce valores menores de 10.000.000\n" NORMAL);}
 
   return EXIT_SUCCESS;
 }
