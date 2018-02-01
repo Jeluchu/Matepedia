@@ -27,9 +27,9 @@ int main(){
 
   if(n>0){
   printf("+---------------------------------------------------------------------+\n");
-  n = sqrt(n);
-  printf(AMARILLO "El resultado de la raíz cuadrada es: " NORMAL
-  NEGRITA "%.2f\n\n" NORMAL,n);
+  n = cbrt(n);
+  printf(AMARILLO "\t  El resultado de la raíz cúbica es: "
+         NEGRITA "%lf\n" NORMAL,n);
 }else{printf(ROJO "Esta raíz no tiene resultado\n" NORMAL);}
 
   return EXIT_SUCCESS;
